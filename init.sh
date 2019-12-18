@@ -1,6 +1,8 @@
 #!/bin/bash
 
+
 test -d $HOME/dotfiles || git clone git@github.com:mikhno-s/dotfiles.git $HOME/dotfiles
+git -C $HOME/dotfiles pull
 
 # TODO sync iterm setting and fonts
 
