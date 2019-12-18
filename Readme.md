@@ -12,9 +12,9 @@ bash <(curl -s https://raw.githubusercontent.com/mikhno-s/dotfiles/master/init.s
 ### TODO
 * iterm2
 * gitconfig
-* gitignore
 * osx
 * ssh
 * fonts
 * brew packages
 * bashrc
+* vscode

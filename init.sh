@@ -26,3 +26,4 @@ create_link() {
 
 create_link ".vimrc"
 create_link ".zshrc"
+create_link ".gitignore"

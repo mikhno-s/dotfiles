@@ -1,5 +1,4 @@
 ### ZSH CONFIGURATION
-
 ZSH="/Users/$USER/.oh-my-zsh"
 ZSH_THEME="agnoster"
 UPDATE_ZSH_DAYS=7
