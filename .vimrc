@@ -13,6 +13,8 @@ noremap <Down>  <Nop>
 noremap <Left>  <Nop>
 noremap <Right> <Nop>
 
+set hls
+
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
   finish
