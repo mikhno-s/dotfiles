@@ -1,2 +1,7 @@
 *.bak
 .envrc
+npm-debug.log
+.DS_Store
+.idea
+*.log
+.vscode
