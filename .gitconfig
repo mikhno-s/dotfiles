@@ -1,0 +1,13 @@
+[user]
+	name = mikhno.s
+	email = sergio.mikhno@gmail.com
+
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+    l = log --all --graph --pretty=format:'%C(auto)%h%C(auto)%d %s %C(dim white)(%aN, %ar)'
+
+[core]
+	excludesfile = ~/.gitignore
