@@ -11,7 +11,6 @@ git -C $HOME/dotfiles pull
 # Installing zsh plugings
 test -d ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions || git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 test -d ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting || git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
 create_link() {
   if [[ -L $HOME/$1 ]]; then 
     rm $HOME/$1
@@ -27,3 +26,4 @@ create_link() {
 create_link ".vimrc"
 create_link ".zshrc"
 create_link ".gitignore"
+create_link ".ssh/config"
