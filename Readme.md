@@ -11,7 +11,6 @@ bash <(curl -s https://raw.githubusercontent.com/mikhno-s/dotfiles/master/init.s
 
 ### TODO
 * iterm2
-* gitconfig
 * osx
 * fonts
 * brew packages
