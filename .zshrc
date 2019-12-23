@@ -36,7 +36,7 @@ fi
 
 
 # EXPORTS 
-
+export EDITOR="vim"
 export GOPATH="$HOME/go"
 export PATH="$PATH:$HOME/.rvm/bin:$GOPATH/bin"
 export JAVA_HOME="/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
