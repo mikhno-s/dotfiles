@@ -3,6 +3,7 @@ ZSH="/Users/$USER/.oh-my-zsh"
 ZSH_THEME="agnoster"
 UPDATE_ZSH_DAYS=7
 
+
 plugins=(
   git 
   osx 
@@ -34,7 +35,6 @@ fi
 # KUBE_PS1_CTX_COLOR=yellow
 # PS1='$(kube_ps1)'$PROMPT
 
-
 # EXPORTS 
 export EDITOR="vim"
 export GOPATH="$HOME/go"
@@ -54,3 +54,25 @@ alias kgs='kubectl get svc'
 alias kgd='kubectl get deploy'
 alias e='grep'
 alias gssh="gcloud compute ssh"
+
+### CHRISTMAS MOOD
+TREE='
+          \e[1m.\e[0m      .  .     \e[33m+\e[0m     .      .          .
+     \e[1m.\e[0m        .      .    \e[32m#\e[0m      \e[1m.\e[0m            \e[1m.\e[0m 
+        \e[1m.\e[0m       .        \e[92m###\e[0m            \e[1m.\e[0m       .      .
+      .      .   \e[92m"#:. .:##"##:.  .:#"\e[0m  .      .
+          .      . \e[32m"#\e[31m0\e[0m\e[32m##"###"\e[32m"#\e[31m0\e[0m\e[32m##"\e[0m  .
+     \e[1m.\e[0m        \e[92m"#:.   .:#"#\e[31m0\e[0m\e[92m#"#:.     .:#"\e[0m  .        .       .
+  .             \e[32m"#\e[32m"#\e[31m0\e[0m\e[32m######"####\e[32m"#\e[31m0\e[0m\e[32m###"\e[0m        .        \e[1m.\e[0m 
+       \e[1m.\e[0m    \e[92m"#:.   "#\e[92m"#\e[31m0\e[0m\e[92m#"###"####"   .:#"\e[0m   .       \e[1m.\e[0m 
+     .     .  \e[32m"#######""##"##""##\e[32m"#\e[31m0\e[0m\e[32m###"\e[0m                  .
+                .\e[92m"#"##\e[92m"#\e[31m0\e[0m\e[92m#"#####"##"\e[0m           .      .
+    \e[1m.\e[0m     \e[92m"#:.... .:##"###\e[92m"#\e[31m0\e[0m\e[92m#"##:.  ....:#"\e[0m     .
+      .     \e[32m"#\e[32m"#\e[31m0\e[0m\e[32m###"##"\e[32m#\e[31m0\e[0m\e[32m####"##"#######"\e[0m      \e[1m.\e[0m      .
+    .    \e[1m.\e[0m      \e[92m"#####""#######""#\e[32m#\e[31m0\e[0m\e[32m##"\e[0m    .      .
+            \e[1m.\e[0m      "      |||      "    .     \e[1m.\e[0m 
+       .         \e[1m.\e[0m    .   |||     .        .       .
+.. .. ...................o000o........................ ...... ...
+'
+
+echo -e $TREE
