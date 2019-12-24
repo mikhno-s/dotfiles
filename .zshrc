@@ -1,8 +1,7 @@
 ### ZSH CONFIGURATION
 ZSH="/Users/$USER/.oh-my-zsh"
-ZSH_THEME="agnoster"
+ZSH_THEME="minimal"
 UPDATE_ZSH_DAYS=7
-
 
 plugins=(
   git 
