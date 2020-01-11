@@ -26,4 +26,4 @@ create_link ".zshrc"
 create_link ".gitignore"
 create_link ".ssh/config"
 create_link ".gitconfig"
-create_link Library/Application\ Support/iTerm2/DynamicProfiles/iterm_sm.json
+create_link Library/Application\ Support/iTerm2/DynamicProfiles/iterm_profiles.json

@@ -1,4 +1,6 @@
 {
+"Profiles": [
+{
   "Right Option Key Sends" : 0,
   "Tags" : [
 
@@ -362,4 +364,6 @@
     "Blue Component" : 0.81416356563568115,
     "Red Component" : 0.26240241527557373
   }
+}
+]
 }
