@@ -15,8 +15,6 @@ create_link() {
 test -d $HOME/dotfiles || git clone git@github.com:mikhno-s/dotfiles.git $HOME/dotfiles
 git -C $HOME/dotfiles pull
 
-# TODO sync iterm setting and fonts
-
 # TODO sync oh-my-zsh settings 
 
 # Installing zsh plugings
@@ -28,3 +26,4 @@ create_link ".zshrc"
 create_link ".gitignore"
 create_link ".ssh/config"
 create_link ".gitconfig"
+create_link "Library/Application Support/iTerm2/DynamicProfiles/iterm_sm.json"
