@@ -1,19 +1,21 @@
-" The default vimrc file.
-"
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last change:	2019 Oct 27
-"
-" This is loaded if no vimrc file was found.
-" Except when Vim is run with "-u NONE" or "-C".
-" Individual settings can be reverted with ":set option&".
-" Other commands can be reverted as mentioned below.
-
 noremap <Up>    <Nop>
 noremap <Down>  <Nop>
 noremap <Left>  <Nop>
 noremap <Right> <Nop>
 
 set hls
+
+set number 
+colorscheme molokai
+syntax enable 
+
+set tabstop=4 " number of visual spaces per TAB
+set softtabstop=4 " number of spaces in tab when editing
+set expandtab " tabs are spaces
+
+set wildmenu " visual autocomplete for command menu
+
+set showmatch " highlight matching [{()}]
 
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
@@ -65,11 +67,6 @@ endif
 " Do not recognize octal numbers for Ctrl-A and Ctrl-X, most users find it
 " confusing.
 set nrformats-=octal
-
-" For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries.
-if has('win32')
-  set guioptions-=t
-endif
 
 " Don't use Ex mode, use Q for formatting.
 " Revert with ":unmap Q".
@@ -146,4 +143,5 @@ if has('langmap') && exists('+langremap')
   " compatible).
   set nolangremap
 endif
+
 
