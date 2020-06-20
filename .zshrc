@@ -53,4 +53,4 @@ alias kgs='kubectl get svc'
 alias kgd='kubectl get deploy'
 alias e='grep'
 alias gssh="gcloud compute ssh"
-
+export KUBECONFIG=/Users/serhiimi/.kube/config:/Users/serhiimi/Documents/le/leops/modules/aks_engine/_output/le-aks/kubeconfig/kubeconfig.westeurope.json
