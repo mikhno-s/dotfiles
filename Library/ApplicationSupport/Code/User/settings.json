@@ -15,7 +15,7 @@
       "ruby-lint": true
     },
     "git.autofetch": true,
-    "workbench.colorTheme": "Default Light+",
+    "workbench.colorTheme": "Default High Contrast",
     "plantuml.java": "/usr/bin/java",
     "metals.javaHome": "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home",
     "go.gopath": "/Users/serhiimi/go",

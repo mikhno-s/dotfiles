@@ -23,7 +23,10 @@ brew list || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebr
 
 #Installing brew packages
 bi "wget" "git" "kubectl" "helm" "azure-cli" "coreutils" "direnv" "Azure/aks-engine/aks-engine" "ipcalc" "jq" \
-   "kube-ps1" "htop" "kubectx" "ncdu" "nmap" "nvm" "packer" "python" "telnet" "terraform" "watch"
+   "kube-ps1" "htop" "kubectx" "ncdu" "nmap" "nvm" "packer" "python" "telnet" "terraform" "watch" \
+   "terraform" "awscli"
+brew cask install google-cloud-sdk
+
 
 if ! xcode-select -p ; then
     xcode-select --install

@@ -1,0 +1,24 @@
+{
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "go.useLanguageServer": true,
+    // "go.autocompleteUnimportedPackages": false,
+    "terminal.integrated.scrollback": 100000,
+    "editor.renderWhitespace": "all",
+    "[go]": {
+
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "extensions.ignoreRecommendations": true,
+    "yaml.customTags": [
+        "!encrypted/pkcs1-oaep scalar",
+        "!vault scalar"
+    ],
+    "redhat.telemetry.enabled": false
+}
