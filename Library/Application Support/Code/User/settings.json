@@ -1,24 +1,46 @@
 {
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    "go.useLanguageServer": true,
-    // "go.autocompleteUnimportedPackages": false,
-    "terminal.integrated.scrollback": 100000,
-    "editor.renderWhitespace": "all",
-    "[go]": {
-
-        "editor.insertSpaces": false,
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
-    },
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
-    },
-    "extensions.ignoreRecommendations": true,
-    "yaml.customTags": [
-        "!encrypted/pkcs1-oaep scalar",
-        "!vault scalar"
-    ],
-    "redhat.telemetry.enabled": false
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "go.useLanguageServer": true,
+  // "go.autocompleteUnimportedPackages": false,
+  "terminal.integrated.scrollback": 100000,
+  "editor.renderWhitespace": "all",
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "extensions.ignoreRecommendations": true,
+  "yaml.customTags": [
+    "!encrypted/pkcs1-oaep scalar",
+    "!vault scalar"
+  ],
+  "redhat.telemetry.enabled": false,
+  "editor.accessibilitySupport": "off",
+  "go.toolsManagement.autoUpdate": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.formatOnSave": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Default Dark+",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "terminal.external.osxExec": "iterm.app",
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.explorerKind": "external",
+  "terminal.integrated.confirmOnExit": "hasChildProcesses",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontWeight": "normal"
 }
